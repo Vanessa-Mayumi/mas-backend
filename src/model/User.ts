@@ -21,7 +21,7 @@ class User {
     email: string;
 
     @Column()
-    passsord: string;
+    password: string;
 
     @CreateDateColumn()
     create_at: Date;
