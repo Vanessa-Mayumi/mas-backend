@@ -34,12 +34,12 @@ export class CreateActivies1633790336184 implements MigrationInterface {
                         default:"now()",
                     }
                 ],
-                foreingnKeys: [
-                    {    
-                        name: 'ActivityCourseUnit',
+                foreignKeys: [
+                    {
+                        name:'ActivyCourseUnit',
                         referencedTableName:'course_units',
                         referencedColumnNames: ['id'],
-                        columnNames:['courseUnitId']
+                        columnNames: ['courseUnitId']
                     }
                 ]
             })
@@ -49,5 +49,5 @@ export class CreateActivies1633790336184 implements MigrationInterface {
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable("activies");
     }
-
-}
+    
+}    
