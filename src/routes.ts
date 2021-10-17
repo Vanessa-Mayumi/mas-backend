@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { ActivyController } from './controller/ActivyController';
 import { AuthenticateController } from './controller/AuthenticateController';
-import { CourseUnitController } from './controller/CourseUnitController';
+import { CourseUnitController } from './controller/CourseunitController';
 import { UserController } from './controller/UserController';
 import authenticated from './middlewares/authenticated';
 
