@@ -2,4 +2,3 @@ node_modules/
 ormconfig.json
 .env
 *lock.json
-*.lock

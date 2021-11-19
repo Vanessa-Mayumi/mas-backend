@@ -2,8 +2,7 @@
   "name": "mas-backend",
   "version": "1.0.0",
   "main": "server.js",
-  "repository": "https://github.com/thiagoromendes/senai-backend.git",
-  "author": "Thiago Mendes  <thiagoromendes@gmail.com>",
+  "author": "Vanessa M Barboza>",
   "license": "MIT",
   "engines": {
     "node": "12"
