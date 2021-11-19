@@ -1,5 +1,5 @@
 import { getRepository } from "typeorm";
-import { Activy } from "../models/Activy";
+import { Activy } from "../model/Activy";
 
 interface UserId{
     id?:string

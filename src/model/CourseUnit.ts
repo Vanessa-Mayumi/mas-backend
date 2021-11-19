@@ -15,16 +15,16 @@ class CourseUnit {
     readonly id: string;
 
     @Column()
-    name!: string;
+    name: string;
 
     @Column()
-    description!: string;
+    description: string;
 
     @CreateDateColumn()
-    created_at!: Date;
+    created_at: Date;
 
     @OneToMany(() => Activy, activy => activy.course_unit)
-    activies!: Activy[]; 
+    activies: Activy[]; 
     
 }
 

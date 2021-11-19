@@ -16,23 +16,23 @@ class Activy {
     readonly id: string;
 
     @Column()
-    name!: string;
+    name: string;
 
     @Column()
-    activy_date!: Date;
+    activy_date: Date;
 
     @Column()
-    courseUnitId!: string;
+    courseUnitId: string;
 
     @Column()
-    grade!: number;
+    grade: number;
 
     @CreateDateColumn()
-    created_at!: Date;
+    created_at: Date;
 
     @ManyToOne(() => CourseUnit, course_unit => course_unit.activies)
     @JoinTable()
-    course_unit!: CourseUnit;
+    course_unit: CourseUnit;
 }
 
 export {Activy};

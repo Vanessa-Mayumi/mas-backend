@@ -15,16 +15,16 @@ class User {
     readonly id:string;
 
     @Column()
-    name!: string;
+    name: string;
 
     @Column()
-    email!: string;
+    email: string;
 
     @Column()
-    password!: string;
+    password: string;
 
     @CreateDateColumn()
-    create_at!: Date;
+    create_at: Date;
 
 }
 
